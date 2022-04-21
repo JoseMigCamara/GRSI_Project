@@ -5,10 +5,10 @@ const path = require('path');
 const app = express();
 
 
-app.use(express.static('./public'));
+app.use(express.static('./SITE'));
 
 app.get('/', (request, response) => {
-    response.sendFile(path.join(__dirname,('./public/index.html')))
+    response.sendFile(path.join(__dirname,('./SITE/index.html')))
 });
 
 const port = 3000;
