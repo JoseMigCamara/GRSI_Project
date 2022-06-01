@@ -9,7 +9,7 @@
   
   <title>AzorFlix</title>
 
-  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/segunda.css">
   <link rel="stylesheet" href="./assets/css/media_query.css">
 
   <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
@@ -33,10 +33,13 @@
           <ul class="navbar-nav">
             <li> <a href="index.html" class="navbar-link">Home</a> </li>
             <li> <a href="#category" class="navbar-link">Category</a> </li>
-            <li> <a href="#live" class="navbar-link  indicator">LIVE</a> </li>
 
           </ul>
         </nav>
+
+        <!--
+          - search and sign-in
+        -->
 
         <div class="navbar-actions">
 
@@ -51,6 +54,12 @@
               <ion-icon name="close-circle-outline"></ion-icon>
             </button>
           </form>
+
+
+          <!--
+            - search button for small screen
+          -->
+
           <button class="navbar-search-btn">
             <ion-icon name="search-outline"></ion-icon>
           </button>
@@ -64,5 +73,131 @@
 
       </div>
     </header>
+
+
+<main>
+  <section class="banner">
+    <div class="banner-card">
+      <div class="play">
+            <img src="./assets/images/movies/Alerta-Vermelho-01.jpg" class="banner-img" alt="">
+            <div class="card-content">
+              <div class="card-info">  
+                <div class="genre">
+                  <ion-icon name="film"></ion-icon>
+                  <span>Action/Comedy</span>
+                </div>
+
+                <div class="year">
+                  <ion-icon name="calendar"></ion-icon>
+                  <span>2021</span>
+                </div>
+
+                <div class="duration">
+                  <ion-icon name="time"></ion-icon>
+                  <span>1h 58m</span>
+                </div>
+
+                <div class="quality">4K</div>
+
+              </div>
+
+              <h2 class="card-title">Red Notice</h2>
+            </div>
+          
+      </div>
+    </div>
+  </section>
+</main>
+
+
+
+<footer>
+
+  <div class="footer-content">
+
+    <div class="footer-brand">
+      <img src="./assets/images/logo1.png" alt="" class="footer-logo">
+      <p class="slogan">Movies & TV Shows, Online cinema.</p>
+
+
+      <div class="social-link">
+
+        <a href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-tiktok"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+
+      </div>
+    </div>
+
+
+    <div class="footer-links">
+      <ul>
+
+        <h4 class="link-heading">AzorFlix</h4>
+
+        <li class="link-item"><a href="#">About us</a></li>
+        <li class="link-item"><a href="#">My profile</a></li>
+        <li class="link-item"><a href="#">Pricing plans</a></li>
+        <li class="link-item"><a href="#">Contacts</a></li>
+
+      </ul>
+
+      <ul>
+
+        <li class="link-item"><a href="#">TV Shows</a></li>
+        <li class="link-item"><a href="#">Movies</a></li>
+        <li class="link-item"><a href="#">Kids</a></li>
+        <li class="link-item"><a href="#">Collections</a></li>
+
+      </ul>
+
+      <ul>
+
+        <h4 class="link-heading">Help</h4>
+
+        <li class="link-item"><a href="#">Account & Billing</a></li>
+        <li class="link-item"><a href="#">Plans & Pricing</a></li>
+        <li class="link-item"><a href="#">Supported devices</a></li>
+        <li class="link-item"><a href="#">Accessibility</a></li>
+
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-copyright">
+
+    <div class="copyright">
+      <p>&copy; copyright 2022 AzorFlix</p>
+    </div>
+
+    <div class="wrapper">
+      <a href="#">Privacy policy</a>
+      <a href="#">Terms and conditions</a>
+    </div>
+
+  </div>
+
+</footer>
+
+</div>
+
+
+  <script src="./assets/js/main.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
